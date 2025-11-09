@@ -157,9 +157,12 @@ def filtrar_paises(tipo_filtro):
             if min_poblacion.isdigit() and max_poblacion.isdigit():
                 min_poblacion = int(min_poblacion)
                 max_poblacion = int(max_poblacion)
-                for pais in dataset:  # agregamos al filtro los valores validos.
-                    if min_poblacion < pais["poblacion"] < max_poblacion:
-                        filtro.append(pais)
+                if min_poblacion < max_poblacion:
+                    for pais in dataset:  # agregamos al filtro los valores validos.
+                        if min_poblacion < pais["poblacion"] < max_poblacion:
+                            filtro.append(pais)
+                else:
+                    print("El minimo de poblacion no puede superar el maximo.")
             else:
                 print(
                     "El minimo y maximo de poblacion deben ser valores numericos enteros."
@@ -172,9 +175,12 @@ def filtrar_paises(tipo_filtro):
             if min_superficie.isdigit() and max_superficie.isdigit():
                 min_superficie = int(min_superficie)
                 max_superficie = int(max_superficie)
-                for pais in dataset:  # agregamos al filtro los valores validos.
-                    if min_superficie < pais["superficie"] < max_superficie:
-                        filtro.append(pais)
+                if min_superficie < max_superficie:
+                    for pais in dataset:  # agregamos al filtro los valores validos.
+                        if min_superficie < pais["superficie"] < max_superficie:
+                            filtro.append(pais)
+                else:
+                    print("El minimo de superficie no puede ser mayor que el maximo.")
             else:
                 print(
                     "El minimo y maximo de superficie deben ser valores numericos enteros."
