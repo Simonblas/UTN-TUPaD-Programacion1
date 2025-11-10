@@ -2,7 +2,11 @@
 
 ## Gestión de Países (Python CLI)
 
-# Diagrama de flujo del codigo:
+## Link del video de presentación:
+
+https://youtu.be/4E3tDD3Qo-s
+
+## Diagrama de flujo del codigo:
 
 https://miro.com/app/board/uXjVJtx2UG0=/
 
@@ -88,6 +92,8 @@ Ejemplo 3: Mostrar estadísticas
 
 ### Participación de los integrantes
 
-Simón Blas – Comisión 2 – Desarrollo del código principal, manejo del archivo CSV, diagramas, pruebas del sistema, grabación de video y documentación teórica – simoblas08@gmail.com
+Simón Blas – Comisión 2 – Desarrollo del código principal, manejo del archivo CSV, diagramas, pruebas del sistema, redacción de conclusiones, grabación de video, documentación teórica y presentación del informe – simoblas08@gmail.com
 
-Joel Vitrano – Comisión 12 – grabación de video, redacción de conclusiones y presentación del informe – joevitrano77@gmail.com
+Joel Vitrano – Comisión 12 – No realizo aportes
+
+Debido a la falta de respuesta del compañero asignado, el trabajo fue desarrollado y presentado de manera individual por el alumno Simón Blas.
